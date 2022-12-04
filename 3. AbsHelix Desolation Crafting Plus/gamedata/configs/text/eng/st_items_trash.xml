@@ -170,6 +170,44 @@
 			</text>
 	</string>
 
+    <string id="mat_lead">
+		<text>Lead</text>
+	</string>
+
+	<string id="mat_lead_desc">
+		<text>Lead is a chemical element with the symbol Pb (from the Latin plumbum) and atomic number 82. It is a heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point. When freshly cut, lead is a shiny gray with a hint of blue. It tarnishes to a dull gray color when exposed to air. \n \n
+			%c[ui_gray_1]PROPERTIES:\n
+			- %c[ui_gray_2] craft materials\n
+            - %c[ui_gray_2] bullet materials\n
+			</text>
+	</string>
+
+    <string id="mat_tungsten">
+		<text>Tungsten</text>
+	</string>
+
+	<string id="mat_tungsten_desc">
+		<text>Tungsten, or wolfram,[9][10] is a chemical element with the symbol W and atomic number 74. Tungsten is a rare metal found naturally on Earth almost exclusively as compounds with other elements. It was identified as a new element in 1781 and first isolated as a metal in 1783. Its important ores include scheelite and wolframite, the latter lending the element its alternate name. \n \n
+			%c[ui_gray_1]PROPERTIES:\n
+			- %c[ui_gray_2] craft materials\n
+            - %c[ui_gray_2] bullet materials\n
+			</text>
+	</string>
+
+    <string id="alloy_powder">
+		<text>Tungsten</text>
+	</string>
+
+	<string id="alloy_powder_desc">
+		<text>An alloy is a mixture of chemical elements of which at least one is a metal. Unlike chemical compounds with metallic bases, an alloy will retain all the properties of a metal in the resulting material, such as electrical conductivity, ductility, opacity, and luster, but may have properties that differ from those of the pure metals, such as increased strength or hardness. In some cases, an alloy may reduce the overall cost of the material while preserving important properties. \n \n
+			%c[ui_gray_1]PROPERTIES:\n
+			- %c[ui_gray_2] craft materials\n
+            - %c[ui_gray_2] bullet materials\n
+			</text>
+	</string>
+
+    
+
     <!-- Medical Part -->
 
     <string id="d_rags">

@@ -1,0 +1,186 @@
+;--================================== Abs Helix Edit ================================
+
+[med_custom]
+icons_texture                                           = ui\abshelix_icons
+
+[bandaid]:booster, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = bandaid_descr
+cost						                       = 1000
+inv_name					                       = bandaid
+inv_name_short				                       = bandaid
+inv_weight					                       = 0.01
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 0
+inv_grid_y					                       = 5
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.01
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 1
+inv_ui_sign					                       = h.med
+
+[torso_bandage]:booster, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = torso_bandage_descr
+cost						                       = 1000
+inv_name					                       = torso_bandage
+inv_name_short				                       = torso_bandage
+inv_weight					                       = 0.01
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 1
+inv_grid_y					                       = 5
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.01
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 1
+inv_ui_sign					                       = t.med
+
+[arm_bandage]:booster, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = arm_bandage_descr
+cost						                       = 1000
+inv_name					                       = arm_bandage
+inv_name_short				                       = arm_bandage
+inv_weight					                       = 0.01
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 2
+inv_grid_y					                       = 5
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.01
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 1
+inv_ui_sign					                       = a.med
+
+[leg_bandage]:booster, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = leg_bandage_descr
+cost						                       = 1000
+inv_name					                       = leg_bandage
+inv_name_short				                       = leg_bandage
+inv_weight					                       = 0.01
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 3
+inv_grid_y					                       = 5
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.01
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 1
+inv_ui_sign					                       = l.med
+
+[bck_ifak]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = bck_ifak_descr
+cost						                       = 5000
+inv_name					                       = bck_ifak
+inv_name_short				                       = bck_ifak
+inv_weight					                       = 0.01
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 4
+inv_grid_y					                       = 5
+max_uses                                           = 4
+boost_health_restore		                       = 0.001
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.035
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 2
+inv_ui_sign					                       = ifak
+
+[bck_aidkit]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\medkit"
+visual						                       = dynamics\devices\dev_aptechka\dev_aptechka_low.ogf
+kind			                                   = i_medical
+description					                       = bck_aidkit_descr
+cost						                       = 5000
+inv_name					                       = bck_aidkit
+inv_name_short				                       = bck_aidkit
+inv_weight					                       = 0.01
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 5
+inv_grid_y					                       = 5
+max_uses                                           = 3
+boost_health_restore		                       = 0.004
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.035
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 3
+inv_ui_sign					                       = aidkit
+
+; -- T2
+[medpack]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = medpack_descr
+cost						                       = 10000
+inv_name					                       = medpack
+inv_name_short				                       = medpack
+inv_weight					                       = 0.3
+inv_grid_width				                       = 2
+inv_grid_height				                       = 1
+inv_grid_x					                       = 0
+inv_grid_y					                       = 6
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.04
+use_sound					                       = interface\inv_bandage_3p7
+max_uses                                           = 2
+remove_after_use                                   = true
+tier                                               = 2
+inv_ui_sign					                       = medpack
+
+[svkit]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = svkit_descr
+cost						                       = 10000
+inv_name					                       = svkit
+inv_name_short				                       = svkit
+inv_weight					                       = 0.3
+inv_grid_width				                       = 2
+inv_grid_height				                       = 1
+inv_grid_x					                       = 2
+inv_grid_y					                       = 6
+boost_time 					                       = 10	;5
+boost_bleeding_restore 		                       = 0.04
+use_sound					                       = interface\inv_bandage_3p7
+max_uses                                           = 2
+remove_after_use                                   = true
+tier                                               = 2
+inv_ui_sign					                       = svkit
+
+[military_svkit]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = military_svkit_descr
+cost						                       = 25000
+inv_name					                       = military_svkit
+inv_name_short				                       = military_svkit
+inv_weight					                       = 0.5
+inv_grid_width				                       = 2
+inv_grid_height				                       = 1
+inv_grid_x					                       = 4
+inv_grid_y					                       = 6
+max_uses                                           = 3
+boost_time 					                       = 10	;5
+boost_health_restore		                       = 0.003
+boost_bleeding_restore 		                       = 0.05
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 1
+inv_ui_sign					                       = m.svkit

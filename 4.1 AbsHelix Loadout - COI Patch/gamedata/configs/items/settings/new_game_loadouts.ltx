@@ -1,0 +1,333 @@
+
+;; ===========================< Loadout >=============================
+;; To add items in the item lists:
+;; -------------------------------
+;; add a new line: "item_section			= value_1,value_2,value3" under the correct section below
+;; "item_section": is the section name of the your item. NOTE: don't make lines with the same "item_section", only the last one will be read
+;; "value_1": (boolean  value, must be true or false) determines wether this item should be added to player's inventory list (false) or to the loadout pick list (true)
+;; "value_2": (number) the amount of the said item
+;; "value_3": (number) how many points it requires
+;; "value_4": (number) what progression difficulty is this item locked at (2 means it's available for difficulty 1 and 2) [no value means its available for all difficulties]
+;; ========================================================
+;; put your custom items under "custom" section, they will always appear to pick from
+;; NOTE: you will get a single bolt only no matter how many you put in here, due to technical engine reasons
+
+
+[points]
+total_points_eco_1 = 2000
+total_points_eco_2 = 1500
+total_points_eco_3 = 1000
+
+
+[custom]	
+
+[shared]:custom
+cash 			                        = false,1,0
+device_pda_1 			                = false,1,0
+chocolate                               = false,1,0
+glue_b   			                    = false,1,0
+gun_oil_ru 			                    = false,1,0
+flask   			                    = false,1,0
+bck_ifak                                = false,4,0
+bck_aidkit                              = false,2,0
+detector_simple                         = false,1,0
+device_flashlight                       = false,1,0
+swiss_knife                             = false,1,0
+sharpening_stones                        = false,1,0
+artefact_container              = false,1,0
+
+wpn_pm_custom                           = true,1,100
+mag_wpn_pm_9x18_fmj                     = true,2,50
+wpn_glock_custom                        = true,1,150
+mag_wpn_glock_9x19_fmj                  = true,2,50
+wpn_fnp45                               = true,1,200
+mag_wpn_fnp45_11.43x23_fmj              = true,2,50
+
+;-- smg
+wpn_aug_9mm                             = true,1,300
+wpn_m4_9mm                             = true,1,300
+wpn_saiga9                             = true,1,300
+
+;-- rifle
+wpn_ak                             = true,1,500
+wpn_m16a1                             = true,1,500
+
+;-- shotgun
+wpn_toz34                             = true,1,300
+wpn_mossberg590                             = true,1,500
+
+;-- sniper
+wpn_sks                             = true,1,500
+wpn_mosin                             = true,1,700
+
+mag_wpn_aug_9mm_9x19_fmj              = true,2,50
+mag_wpn_m4_9mm_fmj              = true,2,50
+mag_wpn_saiga9_9x19_fmj              = true,2,50
+
+mag_wpn_ak_7.62x39_fmj = true,2,60
+mag_wpn_m4_5.56x45_fmj = true,2,60
+mag_wpn_sks_7.62x39_fmj = true,2,60
+
+ammo_9x18_fmj                           = true,8,50
+ammo_9x19_fmj                           = true,8,50
+ammo_11.43x23_fmj                       = true,8,50
+ammo_12x70_buck                       = true,4,50
+ammo_5.56x45_fmj                       = true,8,50
+ammo_7.62x54_7h1                       = true,3,100
+ammo_7.62x39_fmj                       = true,6,100
+
+jgut                                    = true,2,200
+stimpack                                = true,2,200
+drug_anabiotic                          = true,2,300
+survival_kit                            = true,2,300
+energy_drink                            = true,2,100
+vodka                                   = true,2,150
+cigarettes                              = true,2,100
+mineral_water                           = true,2,200
+beer                                    = true,2,150
+tushonka                                = true,2,100
+yadylin                                 = true,2,100
+
+detector_geiger                         = true,1,250
+detector_radio                          = true,1,250
+
+
+[stalker_loadout]:shared
+novice_outfit		                = false,1,0
+helm_resp                               = false,1,0
+itm_backpack                            = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+wpn_knife                               = false,1,0
+
+stalker_patch			        = false,1,0
+bolt 				        = false,1,0
+
+
+[bandit_loadout]:shared
+bandit_novice_outfit                    = false,1,0
+helm_rp_bala                            = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife                               = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+bandit_patch			        = false,1,0
+bolt_bullet 			        = false,1,0
+
+
+[ecolog_loadout]:shared
+ecolog_guard_outfit                     = false,1,0
+helm_respirator_old                     = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife                               = false,1,0
+
+ration_ru                               = false,1,0
+
+detector_advanced                       = false,1,0
+lead_box                                = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+ecolog_patch			        = false,1,0
+bolt 				        = false,1,0
+
+
+[dolg_loadout]:shared
+dolg_scout_outfit	                = false,1,0
+helm_respirator                         = false,1,0
+kit_hunt                                = false,1,0
+
+wpn_knife3                              = false,1,0
+
+ration_ukr                              = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+dolg_patch			        = false,1,0
+bolt_bullet 			        = false,1,0
+
+
+[freedom_loadout]:shared
+svoboda_light_outfit                    = false,1,0
+helm_respirator                         = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife2                              = false,1,0
+
+mre                                     = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+freedom_patch			        = false,1,0
+bolt_bullet 			        = false,1,0
+
+
+[killer_loadout]:shared
+merc_outfit		                = false,1,0
+helm_m40                                = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife2                              = false,1,0
+
+mre                                     = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+killer_patch			        = false,1,0
+bolt 				        = false,1,0
+
+
+[army_loadout]:shared
+army_outfit		                = false,1,0
+helm_bandana                            = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife                               = false,1,0
+
+ration_ukr                              = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+army_patch				= false,1,0
+bolt_bullet 			        = false,1,0
+
+
+[monolith_loadout]:shared
+monolith_outfit	                        = false,1,0
+helm_respirator_old                     = false,1,0
+kit_hunt                                = false,1,0
+
+wpn_knife3                              = false,1,0
+
+letter_monolith_prayer_1_of_3           = false,1,0
+letter_monolith_prayer_2_of_3           = false,1,0
+letter_monolith_prayer_3_of_3           = false,1,0
+mre                                     = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+monolith_patch			        = false,1,0
+bolt 					= false,1,0
+
+
+[csky_loadout]:shared
+cs_novice_outfit	                = false,1,0
+helm_respirator                         = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife                               = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+csky_patch				= false,1,0
+bolt 					= false,1,0
+
+
+[renegade_loadout]:shared
+redline_novice_outfit                   = false,1,0
+helm_rp_bala                            = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife                               = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+renegade_patch			        = false,1,0
+bolt_bullet 			        = false,1,0
+
+
+[greh_loadout]:shared
+trenchcoat_outfit	                = false,1,0
+helm_respirator_old                     = false,1,0
+itm_backpack                            = false,1,0
+
+wpn_knife                               = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+greh_patch			        = false,1,0
+bolt 			                = false,1,0
+
+
+[isg_loadout]:shared
+isg_outfit	                        = false,1,0
+helm_m40                                = false,1,0
+kit_hunt                                = false,1,0
+
+wpn_knife3                              = false,1,0
+
+mre                                     = false,1,0
+batteries_dead                          = false,1,0
+box_matches                             = false,1,0
+
+
+isg_patch			        = false,1,0
+bolt_bullet 			        = false,1,0
+
+
+[zombied_loadout]:shared,stalker_loadout
+
+
+;; ===========================< Ammo >=============================
+;-- defined ammo type per weapon here (weapon section = ammo section) - Example: wpn_glock = ammo_9x19_fmj_bad
+;-- when a weapon in this section found in your inventory, you will be given the ammo stated for it
+;-- otherwise, ammo type will be the first one define in weapon's config
+[ammo_type_per_wpn]
+
+
+;-- define ammo count per ammo section (section = count) here - Example: ammo_9x19_fmj_bad = 60
+;-- When an ammo type is picked for a weapon in your inventory, it will be given to player by the count defined here
+;-- otherwise, ammo's count will be a full box size
+[ammo_count]
+
+;; ===========================< Money >=============================
+[stalker_money]
+money = 1000
+
+[bandit_money]
+money = 1000
+
+[ecolog_money]
+money = 3000
+
+[dolg_money]
+money = 2000
+
+[freedom_money]
+money = 2000
+
+[killer_money]
+money = 3000
+
+[army_money]
+money = 2000
+
+[monolith_money]
+money = 3000
+
+[csky_money]
+money = 1500
+
+[renegade_money]
+money = 800
+
+[greh_money]
+money = 100
+
+[isg_money]
+money = 3000
+
+[zombied_money]
+money = 1000

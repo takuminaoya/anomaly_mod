@@ -387,26 +387,6 @@ inv_ui_sign					                           = dart
 [gun_mat_base]:base_material
 visual                                                 = dynamics\weapons\wpn_ammo\ammo_9x18_fmj.ogf
 
-[rf_pistol]:gun_mat_base
-inv_name_short			                               = rf_pistol
-inv_name			                                   = rf_pistol
-description			                                   = rf_pistol_desc
-inv_grid_width			                               = 1
-inv_grid_height			                               = 1
-inv_grid_x			                                   = 3
-inv_grid_y			                                   = 17
-inv_ui_sign					                           = pistol
-
-[rf_rifle]:gun_mat_base
-inv_name_short			                               = rf_rifle
-inv_name			                                   = rf_rifle
-description			                                   = rf_rifle_desc
-inv_grid_width			                               = 2
-inv_grid_height			                               = 1
-inv_grid_x			                                   = 2
-inv_grid_y			                                   = 18
-inv_ui_sign					                           = rifle
-
 [optic_glass]:gun_mat_base
 inv_name_short			                               = optic_glass
 inv_name			                                   = optic_glass
@@ -493,7 +473,7 @@ inv_ui_sign					                           = alloy
 [medicalpart_base]:base_material
 visual				                               = dynamics\equipments\sumka1.ogf
 
-[d_rags]:medicalpart_base
+[clean_cloth]:medicalpart_base
 inv_name_short			                               = d_rags
 description			                                   = d_rags_desc
 inv_name			                                   = d_rags
@@ -503,7 +483,7 @@ inv_grid_x			                                   = 0
 inv_grid_y			                                   = 4
 inv_ui_sign					                           = d_rags
 
-[c_rags]:medicalpart_base
+[cloth_scrap]:medicalpart_base
 inv_name_short			                               = c_rags
 description			                                   = c_rags_desc
 inv_name			                                   = c_rags
@@ -513,7 +493,7 @@ inv_grid_x			                                   = 1
 inv_grid_y			                                   = 4
 inv_ui_sign					                           = c_rags
 
-[med_alcohol]:medicalpart_base
+[small_alcohol]:medicalpart_base
 inv_name_short			                               = med_alcohol
 description			                                   = med_alcohol_desc
 inv_name			                                   = med_alcohol
@@ -532,103 +512,6 @@ inv_grid_height			                               = 1
 inv_grid_x			                                   = 3
 inv_grid_y			                                   = 4
 inv_ui_sign					                           = skin_glue
-
-;- Contracts
-[blueprint_wpn]:base_material
-visual                                                 = dynamics\equipments\quest\notes_letter_1.ogf
-description			                                    = blueprint_wpn_desc
-inv_grid_width			                                = 1
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 0
-inv_grid_y			                                    = 21
-
-[rifle_bp]:blueprint_wpn
-inv_name			                                   = ak_rifle_bp
-inv_name_short		                                   = ak_rifle_bp
-
-[handgun_bp]:blueprint_wpn
-inv_name			                                   = handgun_bp
-inv_name_short		                                   = handgun_bp
-
-[sniper_bp]:blueprint_wpn
-inv_name			                                   = sniper_bp
-inv_name_short		                                   = sniper_bp
-
-[shotgun_bp]:blueprint_wpn
-inv_name			                                   = shotgun_bp
-inv_name_short		                                   = shotgun_bp
-
-[smg_bp]:blueprint_wpn
-inv_name			                                   = smg_bp
-inv_name_short		                                   = smg_bp
-
-;-- mat for creating Receiver
-[trigger_system]:base_material
-visual				                                   = dynamics\part\prt_w_trigger.ogf
-description			                                   = trigger_system_desc
-
-[rifle_ts]:trigger_system
-inv_name			                                   = rifle_ts
-inv_name_short		                                   = rifle_ts
-inv_grid_width			                                = 1
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 9
-inv_grid_y			                                    = 1
-
-[handgun_ts]:trigger_system
-inv_name			                                   = handgun_ts
-inv_name_short		                                   = handgun_ts
-inv_grid_width			                                = 1
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 15
-inv_grid_y			                                    = 1
-
-[sniper_ts]:trigger_system
-inv_name			                                   = sniper_ts
-inv_name_short		                                   = sniper_ts
-inv_grid_width			                                = 1
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 13
-inv_grid_y			                                    = 1
-
-[shotgun_ts]:trigger_system
-inv_name			                                   = shotgun_ts
-inv_name_short		                                   = shotgun_ts
-inv_grid_width			                                = 2
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 11
-inv_grid_y			                                    = 1
-
-[smg_ts]:trigger_system
-inv_name			                                   = smg_ts
-inv_name_short		                                   = smg_ts
-inv_grid_width			                                = 1
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 14
-inv_grid_y			                                    = 1
-
-
-[mat_spring]:base_material
-visual				                                    = dynamics\repair\grease.ogf
-description			                                    = mat_spring_desc
-inv_name			                                    = mat_spring
-inv_name_short			                                = mat_spring
-inv_grid_width			                                = 1
-inv_grid_height			                                = 1
-inv_grid_x			                                    = 9
-inv_grid_y			                                    = 2
-inv_ui_sign					                            = spring
-
-[mat_rope]:base_material
-visual				                                    = dynamics\repair\grease.ogf
-description			                                    = mat_rope_desc
-inv_name			                                    = mat_rope
-inv_name_short			                                = mat_rope
-inv_grid_width			                                = 1
-inv_grid_height			                                = 2
-inv_grid_x			                                    = 8
-inv_grid_y			                                    = 22
-inv_ui_sign					                            = rope
 
 [mat_zipper]:base_material
 visual				                                    = dynamics\repair\grease.ogf

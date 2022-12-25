@@ -615,7 +615,7 @@
 		</text>
 	</string>
 
-     <string id="military_svkit">
+    <string id="military_svkit">
 		<text>Military Class Survival Kit</text>
 	</string>
 	<string id="military_svkit_descr">
@@ -624,8 +624,50 @@
 		-  first-aid item\n
 		-  fast usage (adhesive plaster)\n
         -  large and for all body part wound\n
-        -  %c[0,252,186,3]first-aid : 60% All Body Part
+        -  %c[0,252,186,3]first-aid : 60% All Body Part\n
         -  %c[255,255,255,3]post-heal : 20% All Body Part
+		</text>
+	</string>
+
+    <string id="abs_salewa">
+		<text>Salewa first aid kit</text>
+	</string>
+	<string id="abs_salewa_descr">
+		<text>Salewa first aid kit (Salewa) is a Medical item in Escape from Tarkov. First aid kit containing bivibag, various types of bandages and dressing tools.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		-  medical kit item\n
+		-  fast usage (adhesive plaster)\n
+        -  large and for all body part wound\n
+        -  %c[0,252,186,3]first-aid : 100% All Body Part\n
+        -  %c[255,255,255,3]post-heal : 60% All Body Part
+		</text>
+	</string>
+
+    <string id="abs_afak">
+		<text>AFAK tactical individual first aid kit</text>
+	</string>
+	<string id="abs_afak_descr">
+		<text>AFAK tactical individual first aid kit (AFAK) is a Medical item in Escape from Tarkov. AFAK (Adaptive First Aid Kit). A more advanced version of the personal first aid kit.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		-  medical kit item\n
+		-  fast usage (adhesive plaster)\n
+        -  large and for all body part wound\n
+        -  %c[0,252,186,3]first-aid : 100% All Body Part\n
+        -  %c[255,255,255,3]post-heal : 80% All Body Part
+		</text>
+	</string>
+
+    <string id="abs_grizzly">
+		<text>Grizzly medical kit</text>
+	</string>
+	<string id="abs_grizzly_descr">
+		<text>Grizzly medical kit (Grizzly) is a Medical item in Escape from Tarkov. Travel Grizzly Medical kit is considered one of the best first aid kits. It contains everything necessary to provide timely medical care in extreme conditions..\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		-  medical kit item\n
+		-  fast usage (adhesive plaster)\n
+        -  large and for all body part wound\n
+        -  %c[0,252,186,3]first-aid : 100% All Body Part\n
+        -  %c[255,255,255,3]post-heal : 100% All Body Part
 		</text>
 	</string>
 	

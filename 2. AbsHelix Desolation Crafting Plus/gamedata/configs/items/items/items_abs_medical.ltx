@@ -3,7 +3,7 @@
 [med_custom]
 icons_texture                                           = ui\abshelix_icons
 
-[bandaid]:booster, med_custom
+[bandaid]:booster_multi, med_custom
 $spawn 						                       = "food and drugs\bandage"
 visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
 kind			                                   = i_medical
@@ -21,8 +21,9 @@ boost_bleeding_restore 		                       = 0.01
 use_sound					                       = interface\inv_bandage_3p7
 tier                                               = 1
 inv_ui_sign					                       = h.med
+max_uses                                           = 2
 
-[torso_bandage]:booster, med_custom
+[torso_bandage]:booster_multi, med_custom
 $spawn 						                       = "food and drugs\bandage"
 visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
 kind			                                   = i_medical
@@ -40,8 +41,9 @@ boost_bleeding_restore 		                       = 0.01
 use_sound					                       = interface\inv_bandage_3p7
 tier                                               = 1
 inv_ui_sign					                       = t.med
+max_uses                                           = 2
 
-[arm_bandage]:booster, med_custom
+[arm_bandage]:booster_multi, med_custom
 $spawn 						                       = "food and drugs\bandage"
 visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
 kind			                                   = i_medical
@@ -59,8 +61,9 @@ boost_bleeding_restore 		                       = 0.01
 use_sound					                       = interface\inv_bandage_3p7
 tier                                               = 1
 inv_ui_sign					                       = a.med
+max_uses                                           = 2
 
-[leg_bandage]:booster, med_custom
+[leg_bandage]:booster_multi, med_custom
 $spawn 						                       = "food and drugs\bandage"
 visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
 kind			                                   = i_medical
@@ -78,6 +81,7 @@ boost_bleeding_restore 		                       = 0.01
 use_sound					                       = interface\inv_bandage_3p7
 tier                                               = 1
 inv_ui_sign					                       = l.med
+max_uses                                           = 2
 
 [bck_ifak]:booster_multi, med_custom
 $spawn 						                       = "food and drugs\bandage"
@@ -184,3 +188,87 @@ boost_bleeding_restore 		                       = 0.05
 use_sound					                       = interface\inv_bandage_3p7
 tier                                               = 1
 inv_ui_sign					                       = m.svkit
+
+-- t3
+[abs_salewa]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = abs_salewa_descr
+cost						                       = 25000
+inv_name					                       = abs_salewa
+inv_name_short				                       = abs_salewa
+inv_weight					                       = 0.5
+inv_grid_width				                       = 1
+inv_grid_height				                       = 2
+inv_grid_x					                       = 5
+inv_grid_y					                       = 7
+max_uses                                           = 3
+
+boost_time 					                       = 15
+boost_health_restore		                       = 0.003
+boost_bleeding_restore 		                       = 0.05
+boost_max_weight			                       = 3.767
+boost_power_restore			                       = 0.0015
+boost_wound_immunity		                       = 0.095
+boost_radiation_restore		                       = 0.0016
+
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 3
+inv_ui_sign					                       = salewa
+
+[abs_afak]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = abs_afak_descr
+cost						                       = 35000
+inv_name					                       = abs_afak
+inv_name_short				                       = abs_afak
+inv_weight					                       = 0.75
+inv_grid_width				                       = 2
+inv_grid_height				                       = 2
+inv_grid_x					                       = 0
+inv_grid_y					                       = 7
+max_uses                                           = 3
+
+boost_time 					                       = 30
+boost_health_restore		                       = 0.003
+boost_bleeding_restore 		                       = 0.05
+boost_max_weight			                       = 5.767
+boost_power_restore			                       = 0.0018
+boost_wound_immunity		                       = 0.065
+boost_radiation_restore		                       = 0.0026
+
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 3
+inv_ui_sign					                       = b.afak
+
+[abs_grizzly]:booster_multi, med_custom
+$spawn 						                       = "food and drugs\bandage"
+visual						                       = dynamics\devices\dev_bandage\dev_bandage.ogf
+kind			                                   = i_medical
+description					                       = abs_grizzly_descr
+cost						                       = 55000
+inv_name					                       = abs_grizzly
+inv_name_short				                       = abs_grizzly
+inv_weight					                       = 1.5
+inv_grid_width				                       = 3
+inv_grid_height				                       = 2
+inv_grid_x					                       = 2
+inv_grid_y					                       = 7
+max_uses                                           = 5
+
+boost_time 					                       = 60
+boost_health_restore		                       = 0.003
+boost_bleeding_restore 		                       = 0.05
+boost_max_weight			                       = 9.767
+boost_power_restore			                       = 0.0028
+boost_wound_immunity		                       = 0.165
+boost_radiation_restore		                       = 0.0046
+
+use_sound					                       = interface\inv_bandage_3p7
+tier                                               = 3
+inv_ui_sign					                       = grizzly
+
+-- pack
